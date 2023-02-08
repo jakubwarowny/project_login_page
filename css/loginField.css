@@ -1,0 +1,50 @@
+.loginField {
+    display: flex;
+}
+
+.divLogin{
+    margin-left: 10px;
+    width: 450px;
+    margin-bottom: 5px;
+    background-color: #be9999;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.divLogin:hover {
+    background-color: rgb(177 141 141);
+}
+
+.css_login {
+    margin-left: 42px;
+}
+
+.css1 {
+    margin-top: 60px;
+}
+
+.paragraph {
+    margin-left: 25px
+}
+
+.css_button {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 150px;
+    background-color:#be9999; 
+    width: 300px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.css_button:hover {
+    background-color: rgb(177 141 141);
+}
+
+.css_info {
+    display: flex;
+    justify-content: center; 
+    margin-top: 25px;
+}
+

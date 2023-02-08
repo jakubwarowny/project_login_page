@@ -1,0 +1,31 @@
+.css_createAccount {
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.css_input {
+    background-color: #ae8181;
+    border: solid 2px #454854;
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: rgb(66, 64, 64);
+    opacity: 1;
+    /* Firefox */
+}
+
+
+.css_input:hover {
+    background-color: #be9999;
+}
+
+.showDiv2 {
+    display: flex;
+}

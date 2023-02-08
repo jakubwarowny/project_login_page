@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/loginPage.css">
+    <link rel="stylesheet" href="css/loginField.css">
+    <link rel="stylesheet" href="css/remindPassword.css">
+    <link rel="stylesheet" href="css/createAccount.css">
+    <title>Login Page</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="frame">
+
+            <div class="css1 loginField">
+                <p class="paragraph" style="color:aliceblue">Login:</p><input class="divLogin css_login inputLogin">
+            </div>
+
+            <div class="loginField">
+                <p class="paragraph" style="color:aliceblue">Password:</p><input type="password"
+                    class="divLogin inputPassword">
+            </div>
+
+            <button class="css_button button" style="color:aliceblue">Login</button>
+
+            <div style="margin-top:25px">
+                <button class="css_button showDivPassword" style="color:aliceblue">Remind password</button>
+                <button class="css_button showDivAccount" style="color:aliceblue">Create new account</button>
+            </div>
+
+            <div class="css_info"><span class="span textInfo"></span></div>
+        </div>
+
+
+        <div class="container2">
+
+            <div id="showDiv1" class="css_remindPassword" style="display:none">
+                <p style="color:aliceblue">Enter your e-mail: </p>
+                <div class="remindPasswordDiv">
+                    <input class="inputRemindPassword css_input" type="text" placeholder="Enter your e-mail">
+                    <button class="verifyButton css_btn" style="margin: 4px 5px;">Verify</button>
+                </div>
+            </div>
+
+            <div id="showDiv2" class="css_createAccount" style="display:none">
+                <p style="color:aliceblue">Create new account:</p>
+                <input class="emailInpt css_input" type="text" placeholder="Enter your e-mail">
+                <input class="loginInpt css_input" type="text" placeholder="Enter your login">
+                <input class="passwordInpt css_input" type="password" placeholder="Enter your password">
+                <button class="registerBtn css_btn">Register</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(299deg, #797979 6%, #b18a8a 70%);
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frame {
+    border: solid 3px #454854;
+    border-radius: 50px;
+    width: 750px;
+    height: 300px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;    
+    height: 150px;
+}   
